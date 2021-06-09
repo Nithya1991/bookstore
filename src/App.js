@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Signup from './pages/signup'
 import {Link, Route} from 'react-router-dom';
@@ -8,7 +7,6 @@ function App() {
     <div className="App">
       <h1>Landing page</h1>
       <Link to="/signup">Sign up</Link>
-      {/* <Signup /> */}
       <Route path="/signup" component={Signup} />
     </div>
   );
