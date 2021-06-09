@@ -55,3 +55,25 @@ html, body, #root, .App {
 .text-center {
   text-align: center;
 }
+
+/* login styles */
+.login-container {
+  display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.login-box {
+    display: flex;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 1px 1px 4px -3px #00001a;
+}
+.route-link
+{
+  padding-right:10px;
+}
