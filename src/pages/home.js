@@ -6,5 +6,5 @@ export default function Home() {
         <h1>Landing page</h1>
         <Link to="/signup">Sign up</Link>
       </div>
-    );
+    )
 }
